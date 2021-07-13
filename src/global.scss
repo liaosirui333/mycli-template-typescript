@@ -1,0 +1,184 @@
+// 引入默认全局样式
+@import '~@fpxfd/next/reset.scss';
+@import '~@fpxfd/next/variables.scss';
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// 修复菜单收起 文字没有隐藏掉的问题
+a:visited {
+  color: $color-brand1-6;
+}
+
+.next-menu {
+  min-width: auto !important;
+}
+
+.next-shell-header {
+  background-color: #fff !important;
+}
+
+.nav-trigger {
+  background-color: #fff!important;
+  .next-icon {
+    color: black;
+  }
+}
+
+.next-shell-sub-main {
+  height: auto !important;
+}
+
+.next-shell-content-inner {
+  height: 100%;
+}
+
+/*列表页*/
+#table-container {
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+/*flex布局*/
+.flex-center-h {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+// 操作栏按钮
+.buttonGroup{
+  margin-bottom: 16px;
+  button{
+    margin-right: 16px;
+  }
+}
+
+// 查询按钮
+.fpx_search {
+  background: rgb(0 90 220 / 10%) !important;
+  color: #005adc;
+  margin-right: 12px;
+  &:hover {
+    color: #fff!important;
+    background-color: #005ADC !important;
+  }
+}
+
+.handleBtn {
+  padding-top: 39px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+// 表单下最后一行的form-item margin-bottom = 0;
+form .next-row:last-child {
+  .next-form-item {
+    margin-bottom: 0;
+  }
+}
+// formitem中的formitem marginbottom为0
+.next-form-item {
+  .next-form-item {
+    margin-bottom: 0;
+  }
+}
+
+// 超链接文字颜色
+.blues {
+  color: #005adc;
+  cursor: pointer;
+}
+.next-table-cell-wrapper {
+  a {
+    color: #005adc !important;
+  }
+}
+
+.next-select-trigger {
+  min-width: auto!important;
+}
+
+.next-select .next-select-inner {
+  min-width: auto!important;
+}
+
+
+.next-menu-sub-menu {
+  .next-selected {
+    background-color: #F2F6FF !important;
+    .next-menu-item-text > a {
+      color: #3561CC !important;
+    }
+  }
+}
+
+// menu 多行文本展示
+.next-shell-collapse {
+  .next-nav-sub-nav-item,.next-menu-item-inner {
+    height: 40px !important;
+  }
+}
+.next-menu-item-inner {
+  height: auto !important;
+  min-height: 40px !important;
+  display: flex;
+  align-items: center;
+}
+.next-menu-item .next-menu-item-text {
+  display: flex;
+  align-items: center;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.2;
+  a {
+    line-height: 1.2;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+// checkbox group left 0
+.next-checkbox-group .next-checkbox-wrapper {
+  margin-left: 0 !important;
+}
+
+// popup auto
+.next-menu-btn-popup {
+  width: auto !important;
+}
+
+// gap define
+.mLeft8 {
+  margin-left: $s-2;
+}
+.mLeft12 {
+  margin-left: $s-3;
+}
+.mRight12 {
+  margin-right: $s-3;
+}
+
+.logo {
+  flex: 1;
+}
+
+.searchform{
+  margin-bottom: 32px;
+}
+
+.next-overlay-wrapper .next-overlay-backdrop{
+  background-color: rgba(0,0,0,0.50) !important;
+}
+.next-nav-item {
+  .next-menu-item-text > a {
+    color:#323643 !important;
+  }
+}
+
+.next-table th{
+  font-weight: $font-weight-medium !important;
+}
