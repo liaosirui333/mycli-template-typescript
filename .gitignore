@@ -24,3 +24,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 index.module.scss.d.ts
+
+
+[url "https://"]
+    insteadOf = git://
+[url "https://github.com"]
+    insteadOf = git@github.com
